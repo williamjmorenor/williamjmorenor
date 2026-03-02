@@ -1,12 +1,13 @@
 # William Moreno Reyes
-CPA MBA 
+CP | MBA 
 
-I know Linux, Python, HTML, SQL and a few JavaScritp, I am a contributor to the [Fedora Project](https://fedoraproject.org/wiki/User:Williamjmorenor).
+I know Linux, Python, HTML, SQL and a few JavaScritp, I am a contributor to the [Fedora Project](https://fedoraproject.org/wiki/User:Williamjmorenor). I am
+the CEO of [BMO Soluciones](https://github.com/bmosoluciones).
 
 
-## My Projects:
+## My Open Source Projects:
 
-### Usable Projects:
+### Ready to use:
 
 #### [NOW LMS](https://github.com/bmosoluciones/now-lms)
 
@@ -27,4 +28,15 @@ A jurisdiction-agnostic payroll calculation engine.
 ![Logo](https://raw.githubusercontent.com/cacao-accounting/cacao-accounting/main/cacao_accounting/static/media/Cacao%20Accounting-01.png)
 
 Accounting solution for Accounts Receivable, Accounts Receivable, Inventory, Treasury and General Accounting.
+
+## My data projects:
+
+### Datasets:
+
+### [personal-finance-chatml-dataset](https://huggingface.co/datasets/williamjmorenor/personal-finance-chatml-dataset)
+
+This dataset is a professionally curated bilingual (English/Spanish) instruction dataset designed for fine-tuning large language
+models (LLMs) in the domain of personal finance. It is structured in ChatML format and intended for supervised fine-tuning (SFT),
+domain adaptation, and financial instruction modeling. The dataset is created and reviewed from an accounting perspective, ensuring
+conceptual precision and terminological consistency.
 
