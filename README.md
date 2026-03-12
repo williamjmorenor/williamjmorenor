@@ -7,21 +7,19 @@ the CEO of [BMO Soluciones](https://github.com/bmosoluciones).
 
 ## My Open Source Projects:
 
-### Ready to use:
-
-#### [NOW LMS](https://github.com/bmosoluciones/now-lms)
+### [NOW LMS](https://github.com/bmosoluciones/now-lms)
 
  ![Logo](https://github.com/bmosoluciones/now-lms/blob/main/now_lms/static/icons/logo/logo_large.png?raw=true)
 
 Simple to {install, use, configure, mantain} learning management system.
 
-#### [Coati Payroll](https://github.com/bmosoluciones/coati-payroll)
+### [Coati Payroll](https://github.com/bmosoluciones/coati-payroll)
 
 ![Logo](https://raw.githubusercontent.com/bmosoluciones/coati-payroll/refs/heads/main/coati_payroll/static/logo/Icono-small.png)
 
 A jurisdiction-agnostic payroll calculation engine.
 
-### In progress not yet ready:
+### Work in progress:
 
 #### [Cacao Accounting](https://github.com/cacao-accounting/cacao-accounting)
 
