@@ -1,0 +1,146 @@
+<svg width="900" height="360" viewBox="0 0 900 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .window {
+      fill: #0d1117;
+      stroke: #30363d;
+      stroke-width: 1.5;
+    }
+
+    .titlebar {
+      fill: #161b22;
+    }
+
+    .dot-red {
+      fill: #ff5f56;
+    }
+
+    .dot-yellow {
+      fill: #ffbd2e;
+    }
+
+    .dot-green {
+      fill: #27c93f;
+    }
+
+    .title {
+      fill: #8b949e;
+      font-family: "SFMono-Regular", "Consolas", "Liberation Mono", monospace;
+      font-size: 14px;
+    }
+
+    .prompt {
+      fill: #7ee787;
+      font-family: "SFMono-Regular", "Consolas", "Liberation Mono", monospace;
+      font-size: 18px;
+      font-weight: 600;
+    }
+
+    .command {
+      fill: #79c0ff;
+      font-family: "SFMono-Regular", "Consolas", "Liberation Mono", monospace;
+      font-size: 18px;
+    }
+
+    .output {
+      fill: #c9d1d9;
+      font-family: "SFMono-Regular", "Consolas", "Liberation Mono", monospace;
+      font-size: 18px;
+    }
+
+    .cursor {
+      fill: #7ee787;
+      animation: blink 1s steps(1) infinite;
+    }
+
+    .line {
+      opacity: 0;
+      transform: translateY(8px);
+      animation: reveal 0.45s ease-out forwards;
+    }
+
+    .line-1 {
+      animation-delay: 0.2s;
+    }
+
+    .line-2 {
+      animation-delay: 1.0s;
+    }
+
+    .line-3 {
+      animation-delay: 1.8s;
+    }
+
+    .line-4 {
+      animation-delay: 2.6s;
+    }
+
+    .line-5 {
+      animation-delay: 3.4s;
+    }
+
+    .cursor-line {
+      opacity: 0;
+      animation: reveal 0.45s ease-out forwards;
+      animation-delay: 4.1s;
+    }
+
+    @keyframes reveal {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes blink {
+      0%, 50% {
+        opacity: 1;
+      }
+      51%, 100% {
+        opacity: 0;
+      }
+    }
+  </style>
+
+  <!-- Terminal Window -->
+  <rect x="20" y="20" width="860" height="320" rx="14" class="window"/>
+
+  <!-- Title Bar -->
+  <rect x="20" y="20" width="860" height="48" rx="14" class="titlebar"/>
+  <rect x="20" y="54" width="860" height="14" class="titlebar"/>
+
+  <!-- Window Buttons -->
+  <circle cx="48" cy="44" r="7" class="dot-red"/>
+  <circle cx="72" cy="44" r="7" class="dot-yellow"/>
+  <circle cx="96" cy="44" r="7" class="dot-green"/>
+
+  <!-- Title -->
+  <text x="450" y="49" text-anchor="middle" class="title">william@cacao-accounting: ~/profile</text>
+
+  <!-- Terminal Content -->
+  <g transform="translate(52, 105)">
+    <g class="line line-1">
+      <text x="0" y="0" class="prompt">$</text>
+      <text x="26" y="0" class="command">whoami</text>
+    </g>
+
+    <g class="line line-2">
+      <text x="0" y="38" class="output">William Moreno Reyes CP | MBA</text>
+    </g>
+
+    <g class="line line-3">
+      <text x="0" y="86" class="prompt">$</text>
+      <text x="26" y="86" class="command">cat now.txt</text>
+      <text x="0" y="124" class="output">Cacao Accounting, Coaty Payroll, NOW LMS, Admiral PaaS</text>
+    </g>
+
+    <g class="line line-4">
+      <text x="0" y="172" class="prompt">$</text>
+      <text x="26" y="172" class="command">cat what.txt</text>
+      <text x="0" y="210" class="output">Python, JavaScript, SQL, HTML</text>
+    </g>
+
+    <g class="cursor-line">
+      <rect x="255" y="281" width="10" height="22" rx="2" class="cursor"/>
+    </g>
+  </g>
+</svg>
